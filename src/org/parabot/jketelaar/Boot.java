@@ -20,7 +20,7 @@ import java.util.ArrayList;
         version = 1.3)
 public class Boot extends Script {
 
-    private static ArrayList<Strategy> strategies = new ArrayList<>();
+    private final ArrayList<Strategy> strategies = new ArrayList<>();
 
     @Override
     public boolean onExecute() {
